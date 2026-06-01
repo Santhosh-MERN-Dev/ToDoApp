@@ -2,7 +2,7 @@ import { useEffect, useMemo, useRef, useState } from "react";
 import toast, { Toaster } from "react-hot-toast";
 import "./App.css";
 
-const API_URL = import.meta.env.VITE_API_URL || "http://localhost:3000";
+const API_URL = import.meta.env.VITE_API_URL;
 const STORAGE_THEME_KEY = "todos-theme";
 const STORAGE_CACHE_KEY = "todos-cache";
 
