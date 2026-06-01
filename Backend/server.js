@@ -6,7 +6,10 @@ const cors = require('cors');
 
 const app = express();
 
-app.use(cors());
+app.use(cors({
+  origin: "https://todoapp-backend-nfmh.onrender.com",
+  credentials: true
+}));
 app.use(express.json());
 
 const PORT = process.env.PORT;
