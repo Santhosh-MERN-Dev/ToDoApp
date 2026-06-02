@@ -7,7 +7,7 @@ const cors = require('cors');
 const app = express();
 
 app.use(cors({
-  origin: "https://todoapp-backend-nfmh.onrender.com",
+  origin: "https://todoapp-wtxk.onrender.com",
   credentials: true
 }));
 app.use(express.json());
